@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>Cross.Plugin.File</AssemblyName>
+    <RootNamespace>Cross.Plugin.File</RootNamespace>
+    <PackageId>Cross.Plugin.File</PackageId>
+    <PackageProjectUrl>https://github.com/AlexeyBuryanov/Cross.Plugin.File</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/AlexeyBuryanov/Cross.Plugin.File</RepositoryUrl>
+    <Description>The File plugin provides cross-platform access to a File Store API. .NET 8 port.</Description>
+    <Version>1.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Oleksii Burianov</Authors>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageTags>net8; file; plugin; mvvmcross</PackageTags>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+  </PropertyGroup>
+ 
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmCross" Version="9.2.0" />
+  </ItemGroup>
+
+</Project>
