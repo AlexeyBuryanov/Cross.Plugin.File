@@ -9,7 +9,7 @@
     <PackageProjectUrl>https://github.com/AlexeyBuryanov/Cross.Plugin.File</PackageProjectUrl>
     <RepositoryUrl>https://github.com/AlexeyBuryanov/Cross.Plugin.File</RepositoryUrl>
     <Description>The File plugin provides cross-platform access to a File Store API. .NET 8 port.</Description>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>Oleksii Burianov</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
